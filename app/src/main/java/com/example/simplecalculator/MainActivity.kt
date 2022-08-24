@@ -19,8 +19,14 @@ class MainActivity : AppCompatActivity() {
      */
     private lateinit var resultText: TextView
 
+    /**
+     * 計算担当クラス
+     */
     private val calculator = Calculator()
 
+    /**
+     * 電卓のボタンタップリスナ
+     */
     private val listener = View.OnClickListener { view ->
         when (view.id) {
             R.id.button0 -> calculator.inputNumber(0)

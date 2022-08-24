@@ -126,6 +126,7 @@
         android:layout_height="30dp"
         android:gravity="end"
         android:lines="1"
+        android:text="@string/value_0"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@id/grid"
         app:layout_constraintTop_toTopOf="parent" />

@@ -139,6 +139,7 @@ class Calculator {
                 else -> ""
             }
         } catch (e: ArithmeticException) {
+            listener.onError("calculate failed")
             ""
         }
     }
